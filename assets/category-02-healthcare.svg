@@ -1,0 +1,31 @@
+<svg viewBox="0 0 1000 250" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#43e97b"/>
+      <stop offset="100%" stop-color="#38f9d7"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="250" rx="16" fill="url(#bg)"/>
+  <circle cx="900" cy="50" r="60" fill="white" opacity="0.1"/>
+  <circle cx="80" cy="200" r="40" fill="white" opacity="0.1"/>
+  
+  <!-- 하트 -->
+  <g transform="translate(95, 90)">
+    <path d="M 0 -10 C -15 -28, -40 -20, -40 5 C -40 25, 0 50, 0 50 C 0 50, 40 25, 40 5 C 40 -20, 15 -28, 0 -10 Z" fill="white"/>
+    <!-- 펄스 라인 -->
+    <path d="M -28 8 L -15 8 L -8 -7 L 0 22 L 8 8 L 28 8" stroke="#43e97b" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  
+  <!-- 덤벨 -->
+  <g transform="translate(195, 90)">
+    <rect x="-30" y="-8" width="6" height="20" fill="white" rx="2"/>
+    <rect x="-24" y="-4" width="4" height="12" fill="white"/>
+    <rect x="-20" y="-2" width="40" height="8" fill="white" rx="2"/>
+    <rect x="20" y="-4" width="4" height="12" fill="white"/>
+    <rect x="24" y="-8" width="6" height="20" fill="white" rx="2"/>
+  </g>
+  
+  <text x="280" y="100" font-family="-apple-system, sans-serif" font-size="42" font-weight="800" fill="white">02. Health &amp; Behavior</text>
+  <text x="280" y="135" font-family="sans-serif" font-size="18" fill="white" opacity="0.9">헬스케어·행동변화 — 운동 retention, 유사성 vs 권위성, 치매예방</text>
+  <text x="280" y="180" font-family="sans-serif" font-size="16" font-weight="600" fill="white" opacity="0.95">H5  ·  H6 ⭐  ·  H7</text>
+</svg>

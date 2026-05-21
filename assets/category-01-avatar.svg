@@ -1,0 +1,29 @@
+<svg viewBox="0 0 1000 250" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4facfe"/>
+      <stop offset="100%" stop-color="#00f2fe"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="250" rx="16" fill="url(#bg)"/>
+  <circle cx="900" cy="50" r="60" fill="white" opacity="0.1"/>
+  <circle cx="80" cy="200" r="40" fill="white" opacity="0.1"/>
+  
+  <!-- 아바타 아이콘 -->
+  <g transform="translate(80, 90)">
+    <circle cx="0" cy="0" r="35" fill="white"/>
+    <circle cx="-10" cy="-5" r="4" fill="#4facfe"/>
+    <circle cx="10" cy="-5" r="4" fill="#4facfe"/>
+    <path d="M -14 12 Q 0 22 14 12" stroke="#4facfe" stroke-width="3" fill="none" stroke-linecap="round"/>
+  </g>
+  
+  <!-- 신뢰 아이콘 (방패) -->
+  <g transform="translate(180, 90)">
+    <path d="M 0 -35 L 28 -25 L 28 5 Q 28 28 0 38 Q -28 28 -28 5 L -28 -25 Z" fill="white" opacity="0.85"/>
+    <path d="M -10 0 L -3 8 L 12 -8" stroke="#4facfe" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  
+  <text x="280" y="100" font-family="-apple-system, sans-serif" font-size="42" font-weight="800" fill="white">01. Avatar &amp; Trust</text>
+  <text x="280" y="135" font-family="sans-serif" font-size="18" fill="white" opacity="0.9">아바타와 신뢰 — 실사 vs 애니메이션, 시선·표정·말투, 자기개방, 모델 라벨 효과</text>
+  <text x="280" y="180" font-family="sans-serif" font-size="16" font-weight="600" fill="white" opacity="0.95">H1  ·  H2  ·  H3  ·  H4 ⭐</text>
+</svg>

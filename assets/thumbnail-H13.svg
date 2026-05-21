@@ -1,0 +1,55 @@
+<svg viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2c3e50"/>
+      <stop offset="100%" stop-color="#4a6cf7"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="300" rx="20" fill="url(#bg)"/>
+  <circle cx="700" cy="60" r="80" fill="white" opacity="0.05"/>
+  
+  <!-- 터미널 창 -->
+  <g transform="translate(220, 165)">
+    <rect x="-110" y="-70" width="220" height="140" rx="10" fill="#1a1a2e"/>
+    <rect x="-110" y="-70" width="220" height="22" rx="10" fill="#2c2c44"/>
+    <circle cx="-95" cy="-59" r="4" fill="#ff5f56"/>
+    <circle cx="-80" cy="-59" r="4" fill="#ffbd2e"/>
+    <circle cx="-65" cy="-59" r="4" fill="#27c93f"/>
+    <text x="0" y="-55" font-family="monospace" font-size="9" fill="#888" text-anchor="middle">claude-code</text>
+    
+    <text x="-95" y="-25" font-family="monospace" font-size="11" fill="#43e97b">$ claude</text>
+    <text x="-95" y="-8" font-family="monospace" font-size="10" fill="#4facfe">Building app...</text>
+    <text x="-95" y="8" font-family="monospace" font-size="10" fill="#888">  ✓ Setup done</text>
+    <text x="-95" y="24" font-family="monospace" font-size="10" fill="#888">  ✓ Tests pass</text>
+    <text x="-95" y="40" font-family="monospace" font-size="10" fill="#ffd700">  → Deploying...</text>
+    <text x="-95" y="56" font-family="monospace" font-size="11" fill="#43e97b">$ ▌</text>
+  </g>
+  
+  <!-- 화살표 -->
+  <path d="M 360 165 L 440 165" stroke="white" stroke-width="3" opacity="0.7" stroke-linecap="round"/>
+  <polygon points="440,165 430,159 430,171" fill="white" opacity="0.7"/>
+  
+  <!-- 결과: 학생 능력 향상 -->
+  <g transform="translate(560, 165)">
+    <rect x="-100" y="-70" width="200" height="140" rx="14" fill="white"/>
+    <text x="0" y="-45" font-family="sans-serif" font-size="13" font-weight="700" fill="#4a6cf7" text-anchor="middle">Student Skills ↑</text>
+    
+    <!-- 막대 그래프 -->
+    <text x="-75" y="-15" font-family="sans-serif" font-size="10" fill="#666">AI Literacy</text>
+    <rect x="-10" y="-22" width="80" height="10" rx="3" fill="#e0e0e0"/>
+    <rect x="-10" y="-22" width="68" height="10" rx="3" fill="#4a6cf7"/>
+    
+    <text x="-75" y="10" font-family="sans-serif" font-size="10" fill="#666">Self-Efficacy</text>
+    <rect x="-10" y="3" width="80" height="10" rx="3" fill="#e0e0e0"/>
+    <rect x="-10" y="3" width="74" height="10" rx="3" fill="#43e97b"/>
+    
+    <text x="-75" y="35" font-family="sans-serif" font-size="10" fill="#666">Code Quality</text>
+    <rect x="-10" y="28" width="80" height="10" rx="3" fill="#e0e0e0"/>
+    <rect x="-10" y="28" width="72" height="10" rx="3" fill="#fa709a"/>
+    
+    <text x="0" y="60" font-family="sans-serif" font-size="11" fill="#aaa" text-anchor="middle">↓ Critical Check?</text>
+  </g>
+  
+  <text x="400" y="55" font-family="-apple-system, sans-serif" font-size="32" font-weight="800" fill="white" text-anchor="middle">H13</text>
+  <text x="400" y="278" font-family="sans-serif" font-size="15" fill="white" opacity="0.95" text-anchor="middle">Agentic Coding Tools &amp; AI Literacy Development</text>
+</svg>
