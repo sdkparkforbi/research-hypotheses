@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/thumbnail-main.svg" alt="Research Hypotheses Main Thumbnail" width="800"/>
+  <img src="assets/thumbnail-main.png" alt="Research Hypotheses Main Thumbnail" width="800"/>
 </div>
 
 # 🧪 Research Hypotheses
@@ -13,7 +13,7 @@
 ## 📚 연구 영역 및 가설 목록
 
 ### 1️⃣ 아바타·신뢰(Trust) 영역
-<img src="assets/category-01-avatar.svg" alt="Avatar Trust" width="600"/>
+<img src="assets/category-01-avatar.png" alt="Avatar Trust" width="600"/>
 
 | 코드 | 가설 | 링크 |
 |------|------|------|
@@ -23,7 +23,7 @@
 | **H4** ⭐ | 동일 LLM 응답이라도 모델 라벨(Gemma/GPT/Claude)에 따라 신뢰도가 달라질 것이다 | [📄](01-avatar-trust/H4-llm-label-effect.md) |
 
 ### 2️⃣ 헬스케어·행동변화 영역
-<img src="assets/category-02-healthcare.svg" alt="Healthcare" width="600"/>
+<img src="assets/category-02-healthcare.png" alt="Healthcare" width="600"/>
 
 | 코드 | 가설 | 링크 |
 |------|------|------|
@@ -32,7 +32,7 @@
 | **H7** | 대화형 아바타 피드백은 치매예방게임의 신경심리지표를 향상시킬 것이다 | [📄](02-healthcare/H7-dementia-game.md) |
 
 ### 3️⃣ 교육·학습 영역
-<img src="assets/category-03-education.svg" alt="Education" width="600"/>
+<img src="assets/category-03-education.png" alt="Education" width="600"/>
 
 | 코드 | 가설 | 링크 |
 |------|------|------|
@@ -41,7 +41,7 @@
 | **H10** | "맞춤형 봇" 라벨링은 사용 시간과 몰입도를 증가시킬 것이다 | [📄](03-education/H10-personalization-label.md) |
 
 ### 4️⃣ AI 인큐베이터 메타 연구 영역
-<img src="assets/category-04-incubator.svg" alt="Incubator" width="600"/>
+<img src="assets/category-04-incubator.png" alt="Incubator" width="600"/>
 
 | 코드 | 가설 | 링크 |
 |------|------|------|
@@ -93,7 +93,7 @@
 ## 📬 Contact
 
 - **PI**: 박대근 교수
-- **Co-researcher**: 김정민 (학석연계, 미디어융합학과 23)
+- **Co-researcher**: 김정민 (AI헬스케어융합전공, 학석연계과정)
 
 ---
 
